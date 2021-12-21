@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(Images/background.png);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+h2 {
+    color: #00a2c6
+}
+
+h3 {
+    color: #00a2c6
+}
+
+p.teks {
+    text-align: justify;
+}
+
+img {
+    background-size: cover;
+}
+
+nav {
+    background-color: #f1ce72;
+    border-top: 10px solid #bde0ff;
+    border-bottom: 10px solid #bde0ff;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #b57300;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00a2c6;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile section {
+    text-align: justify;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(189, 224, 255, 0.5);
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #b57300;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
